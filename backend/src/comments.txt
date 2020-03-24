@@ -1,0 +1,29 @@
+/*
+    Métodos HTTP
+    GET: Busca uma informação do back-end
+    POST: Criar uma nova informação no back-end
+    PUT: Alterar uma informação no back-end
+    DELETE: Deletar uma informação no back-end
+*/
+
+
+/*
+    PARÂMETROS
+    Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+    Route Params: Parâmetros usados para identificar recursos
+    Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+*/
+/*
+    Formas de usar mysql com node:
+    Driver: SELECT * FROM users
+    Query Builder: table('users').select('*').where('id=1')
+
+    Vamos usar o KNEX (query builder)
+*/
+
+
+/*routes.get('/ongs',async(request,response)=>{
+    const ongs = await connection('ongs').select('*');
+    return response.json(ongs);
+});*/
+

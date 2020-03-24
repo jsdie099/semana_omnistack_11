@@ -1,0 +1,20 @@
+Entidades
+.ONG
+.Caso (incident)
+
+
+FUNCIONALIDADES
+.Login de ONG
+.Lougout de ONG
+.Cadastro de ONG
+.Cadastrar novos casos
+.Deletar casos
+.Listar casos específicos de uma ONG    
+.Listar todos os casos
+.Entrar em contato com a ONG
+
+
+
+Comandos knex
+$ npx knex migrate:make nome_função_ou_banco
+$ npx knex migrate:latest //após usar código para criar tabela
